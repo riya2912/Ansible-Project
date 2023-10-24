@@ -1,0 +1,6 @@
+---
+- name: Apply Security Patches
+  hosts: all
+  become: yes
+  roles:
+   - ansible-patch-role
