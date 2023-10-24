@@ -3,4 +3,6 @@ plugin: amazon.aws.aws_ec2
 regions:
  - eu-west-2
 filters:
- tag:Name : Ansible_Host1
+ tag:Name :
+  - Ansible-host1
+  - Ansible-host2
